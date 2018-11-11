@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /7_7_project_files
+/build
 /img
 
 # testing
