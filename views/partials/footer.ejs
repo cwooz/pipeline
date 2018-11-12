@@ -1,6 +1,27 @@
+<!-- FEATURE DISCOVERY -->
+<div class="fixed-action-btn">
+    <a id="menu" class="btn btn-floating btn-large orange" onclick="$('.tap-target').tapTarget('open')">
+      <i class="material-icons">menu</i>
+    </a>
+  </div>
+  
+  <div class="tap-target-wrapper">
+    <div class="tap-target orange" data-activates="menu">
+      <div class="tap-target-content white-text">
+        <h5>Info App</h5>
+        <p class="white-text">For detailed information about the Pipeline Project and all related applications, continue reading...</p>
+      </div>
+    </div>
+    <div class="tap-target-wave">
+      <a class="btn btn-floating btn-large orange tap-target-origin">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </div>
 
   <!-- Footer -->
-  <footer class="page-footer green lighten-1">
+  <!-- <footer class="page-footer green lighten-1"> -->
+  <footer class="page-footer black">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -19,12 +40,12 @@
             <li>
               <a class="grey-text text-lighten-3" href="/signup">Contact</a>
             </li>
-
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright blue darken-2">
+    <!-- <div class="footer-copyright blue darken-2"> -->
+    <div class="footer-copyright black">
       <div class="container">
         CBC &copy; 2018
         <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
@@ -64,8 +85,10 @@
     $(document).ready(function () {
       $('.carousel.carousel-slider').carousel({ fullWidth: true, indicators: true });
       $('.materialboxed').materialbox();
+      $('.collapsible').collapsible();
       $('.button-collapse').sideNav();
       $('.modal').modal();
+      $('.slider').slider();
       $('.dropdown-button').dropdown({
         constrainWidth: false,
         hover: true,

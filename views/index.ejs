@@ -5,12 +5,12 @@
     <div class="showcase container">
       <div class="row">
         <div class="col s12 m10 offset-m1 center">
-          <h5 class="bold">Building the Future with</h5>
+          <h5>Building the Future</h5>
           <h1 class="bold">CBC First<span style="font-weight:normal">&trade;</span></h1>
-          <h5>Welcome to the Pipeline</h5>
+          <h5>Welcome to the Pipeline!</h5>
           <br>
           <br>
-          <a class="btn btn-large waves-effect waves-green white blue-text bold" onclick="$('.tap-target').tapTarget('open')">Learn More</a>
+          <a class="btn btn-large waves-effect waves-orange white blue-text bold" onclick="$('.tap-target').tapTarget('open')">Learn More</a>
           <!-- <a href="signup.html" class="btn btn-large blue white-text">Sign Up</a> -->
         </div>
       </div>
@@ -20,27 +20,33 @@
   <!-- Section: Icon Boxes -->
   <section class="section section-icons center top bottom" id="projects">
     <div class="container">
-      <h2 class="blue-text center bottom bold">Project Pipeline</h2>
+      <h1 class="blue-text center bottom bold">Project Pipeline</h1>
       <div class="row">
         <div class="col s12 m4">
-          <div class="card-panel hoverable blue darken-2">
+          <div class="card-panel hoverable section-developers">
+            <a href="#sec-web">
             <i class="fa fa-desktop fa-3x white-text"></i>
             <h5 class="white-text">Web Development</h5>
             <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime dolor quas ab, sed dicta, temporibus alias dolores quibusdam tempore officia veniam vel, molestias corrupti laborum doloremque harum recusandae autem.</p>
+          </a>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card-panel hoverable blue darken-2">
+          <div class="card-panel hoverable section-yellow">
+              <a href="#sec-int">
             <i class="fa fa-newspaper fa-3x white-text"></i>
             <h5 class="white-text">Bank Intranet</h5>
             <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime dolor quas ab, sed dicta, temporibus alias dolores quibusdam tempore officia veniam vel, molestias corrupti laborum doloremque harum recusandae autem.</p>
+            </a>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card-panel hoverable blue darken-2">
+          <div class="card-panel hoverable section-red">
+            <a href="#sec-por">
             <i class="fa fa-server fa-3x white-text"></i>
             <h5 class="white-text">Portal Application</h5>
             <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime dolor quas ab, sed dicta, temporibus alias dolores quibusdam tempore officia veniam vel, molestias corrupti laborum doloremque harum recusandae autem.</p>
+            </a>
           </div>
         </div>
       </div>
@@ -49,7 +55,7 @@
 
 
   <!-- Section: Developers -->
-  <section class="section section-developers white-text">
+  <section class="section section-podcast white-text">
     <div class="primary-overlay valign-wrapper">
       <div class="container top bottom40" style="margin-bottom:40px;">
         <div class="row">
@@ -92,24 +98,11 @@
     </div>
   </section>
 
-  <!-- Section: Podcast -->
-  <section class="section section-podcast white-text">
-    <div class="primary-overlay valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m8">
-            <h4 class="bold">CBC First<span style="font-weight:normal">&trade;</span> Future Products:</h4>
-            <h5>Including Mobile App Development!</h5>
-          </div>
-          <div class="col s12 m4">
-            <a class="btn btn-large white waves-effect waves-green blue-text darken-2 bold" onclick="$('.tap-target').tapTarget('open')">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <% include ./main/web %>
+  <% include ./main/intranet %>
+  <% include ./main/portal %>
 
   <!-- Section: About -->
   <section class="section section-about grey lighten-4">
@@ -173,10 +166,23 @@
   </section>
 
 
-  
+  <div class="row white-text pull-down">
+
+      <div class="col s4 valign-wrapper center section-podcast">
+        <h5 class="bold padding-100">Streamlined Scalable Solutions. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, doloribus id. Odit natus libero ipsam. Using The Right Tool For The Job.</h5>
+      </div>
+      <div class="col s4 valign-wrapper center section-developers">
+        <h5 class="bold padding-100">Streamlined Scalable Solutions. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, doloribus id. Odit natus libero ipsam. Using The Right Tool For The Job.</h5>
+      </div>
+      <div class="col s4 valign-wrapper center section-podcast">
+        <h5 class="bold padding-100">Streamlined Scalable Solutions. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, doloribus id. Odit natus libero ipsam. Using The Right Tool For The Job.</h5>
+      </div>
+
+    </div>
+
 
 <!-- FEATURE DISCOVERY -->
-<div class="fixed-action-btn">
+<!-- <div class="fixed-action-btn">
   <a id="menu" class="btn btn-floating btn-large green" onclick="$('.tap-target').tapTarget('open')">
     <i class="material-icons">menu</i>
   </a>
@@ -194,7 +200,7 @@
       <i class="material-icons">menu</i>
     </a>
   </div>
-</div>
+</div> -->
 
 
 <% include ./partials/footer %>

@@ -15,9 +15,6 @@
 .underline     { border-bottom:1px solid; }
 .highlight     { background:#ffc; }
 
-.wrap          { width:960px;margin:0 auto; }
-.hidden				 { visibility: hidden; }
-
 .inline-block     { display: inline-block; }
 .flex-center      { display: flex; justify-content: center; }
 .flex-center-center      { display: flex; justify-content: center; align-items: center; }
@@ -27,9 +24,15 @@
 .margin-atb       { margin-top: auto; margin-bottom: auto; display: block; }
 .top              { margin-top: 50px; }
 .bottom           { margin-bottom: 50px; }
-.top-40            { margin-top: 40px; }
-.bottom-40         { margin-bottom: 40px; }
+.top-40           { margin-top: 40px; }
+.bottom-40        { margin-bottom: 40px; }
 .width						{ width: 100%; }
+
+.padding-20    { padding: 20px; }
+.padding-30    { padding: 20px; }
+.padding-40    { padding: 20px; }
+.padding-50    { padding: 20px; }
+.padding-100   { padding: 100px; }
 
 .img-left      { float:left; margin:4px 10px 4px 0; }
 .img-right     { float:right; margin:4px 0 4px 10px; }
@@ -39,25 +42,30 @@
 .noindent      { margin-left:0; padding-left:0; }
 .nobullet      { list-style:none; list-style-image:none; }
 
+/* Special for Project */
+.pull-up       { margin-top: -20px; }
+.pull-down     { margin-bottom: 0px; }
+
 /* -------------------------- MASTER BLASTER BROWSER CLEAR ---------------------------- */
 
 /* .row {
   margin-bottom: 0px !important;
 } */
+#blue-over {
+  color: #2893ff;
+}
+
+.indicators {
+  display: none !important;
+}
 
 .blue-other {
   color: #2893ff;
 }
 
-/* .primary-overlay {
-  background: rgba(40, 147, 255, 0.6);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-} */
+.green-other {
+  color: #35d175;
+}
 
 .main-header {
   background: url(../img/background.jpg);
@@ -90,6 +98,16 @@
   font-weight: bold;
 }
 
+.yellow-link {
+  color: #f4c20d;
+  font-weight: bold;
+}
+
+.red-link {
+  color: #db3236;
+  font-weight: bold;
+}
+
 .section-developers {
   /* position: relative; */
   /* background: #1976D2; */
@@ -111,6 +129,14 @@
   /* border-top: #333 solid 5px; */
   /* border-bottom: #333 solid 5px; */
   /* min-height: 300px; */
+}
+
+.section-red {
+  background: #db3236;
+}
+
+.section-yellow {
+  background: #f4c20d;
 }
 
 .section-podcast a {
