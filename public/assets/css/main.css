@@ -90,13 +90,14 @@
 
 .section-developers {
   position: relative;
-  background: #1976D2;
+  /* background: #1976D2; */
+  background: #35d175;
   /* background: url(../img/code.jpg); */
   background-size: cover;
   background-position: center;
-  border-top: #333 solid 5px;
+  /* border-top: #333 solid 5px; */
   /* border-bottom: #333 solid 5px; */
-  min-height: 160px;
+  min-height: 300px;
 }
 
 .section-podcast {
@@ -106,17 +107,17 @@
   background-size: cover;
   background-position: center;
   /* border-top: #333 solid 5px; */
-  border-bottom: #333 solid 5px;
-  min-height: 160px;
+  /* border-bottom: #333 solid 5px; */
+  min-height: 300px;
 }
 
 .section-podcast a {
   margin-top: 30px;
 }
 
-.section-podcast .primary-overlay {
+/* .section-podcast .primary-overlay {
   background: rgba(40, 147, 255, 0.6);
-}
+} */
 
 .carousel-item p {
   font-size: 20px !important;
