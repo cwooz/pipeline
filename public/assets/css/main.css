@@ -1,0 +1,139 @@
+/* -------------------------- MASTER BLASTER BROWSER CLEAR ---------------------------- */
+
+/* Global Classes */
+.clear         { clear:both; }
+.float-left    { float:left; }
+.float-right   { float:right; }
+
+.text-left     { text-align:left; }
+.text-right    { text-align:right; }
+.text-center   { text-align:center; }
+.text-justify  { text-align:justify; }
+
+.bold          { font-weight:bold; }
+.italic        { font-style:italic; }
+.underline     { border-bottom:1px solid; }
+.highlight     { background:#ffc; }
+
+.wrap          { width:960px;margin:0 auto; }
+.hidden				 { visibility: hidden; }
+
+.inline-block     { display: inline-block; }
+.flex-center      { display: flex; justify-content: center; }
+.flex-center-center      { display: flex; justify-content: center; align-items: center; }
+
+.vert-cent        { display: flex; flex-direction: column; justify-content: center; }
+.margin-auto      { margin-left: auto; margin-right: auto; display: block; }
+.margin-atb       { margin-top: auto; margin-bottom: auto; display: block; }
+.top              { margin-top: 50px; }
+.bottom           { margin-bottom: 50px; }
+.width						{ width: 100%; }
+
+.img-left      { float:left; margin:4px 10px 4px 0; }
+.img-right     { float:right; margin:4px 0 4px 10px; }
+.same          { margin-left: auto; margin-right: auto; }
+
+.nopadding     { padding:0 !important; }
+.noindent      { margin-left:0; padding-left:0; }
+.nobullet      { list-style:none; list-style-image:none; }
+
+/* -------------------------- MASTER BLASTER BROWSER CLEAR ---------------------------- */
+
+/* .row {
+  margin-bottom: 0px !important;
+} */
+
+.blue-other {
+  color: #2893ff;
+}
+
+.primary-overlay {
+  background: rgba(40, 147, 255, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.active-link {
+  color: #35d175;
+  /* color: #66BB6A; */
+  /* color: #2893ff; */
+  font-weight: bold;
+}
+
+.section-developers {
+  position: relative;
+  background: #1976D2;
+  /* background: url(../img/code.jpg); */
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background: #1976D2;
+  /* background: url(../img/circuit.jpg); */
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(40, 147, 255, 0.6);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #2893ff !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
