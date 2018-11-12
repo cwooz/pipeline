@@ -16,9 +16,14 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
-// INDEX ROUTE===============================
+// PORTFOLIO ROUTE===============================
 app.get('/solutions', function(req, res) {
   res.render('solutions');
+});
+
+// CONTACT ROUTE===============================
+app.get('/signup', function(req, res) {
+  res.render('signup');
 });
 
 // // NEW ROUTE=================================
