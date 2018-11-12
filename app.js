@@ -26,6 +26,11 @@ app.get('/signup', function(req, res) {
   res.render('signup');
 });
 
+//LISTEN===============================================
+app.listen(process.env.PORT, process.env.IP, function() {
+  console.log('SERVER HAS STARTED');
+});
+
 // // NEW ROUTE=================================
 // app.get("/home/new", function(req, res) {
 //     res.render("new");
@@ -97,8 +102,3 @@ app.get('/signup', function(req, res) {
 //         }
 //     });
 // });
-
-//LISTEN===============================================
-app.listen(process.env.PORT, process.env.IP, function() {
-  console.log('SERVER HAS STARTED');
-});
