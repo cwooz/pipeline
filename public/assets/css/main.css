@@ -95,7 +95,7 @@
   background-size: cover;
   background-position: center;
   border-top: #333 solid 5px;
-  border-bottom: #333 solid 5px;
+  /* border-bottom: #333 solid 5px; */
   min-height: 160px;
 }
 
@@ -105,7 +105,7 @@
   /* background: url(../img/circuit.jpg); */
   background-size: cover;
   background-position: center;
-  border-top: #333 solid 5px;
+  /* border-top: #333 solid 5px; */
   border-bottom: #333 solid 5px;
   min-height: 160px;
 }
