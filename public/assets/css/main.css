@@ -47,7 +47,7 @@
   color: #2893ff;
 }
 
-.primary-overlay {
+/* .primary-overlay {
   background: rgba(40, 147, 255, 0.6);
   position: absolute;
   top: 0;
@@ -55,7 +55,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
+} */
 
 .main-header {
   background: url(../img/background.jpg);
