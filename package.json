@@ -5,9 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/cwooz/pipeline/issues"
   },
-  "homepage": "https://cwooz.github.io/pipeline/",
+  "homepage": "https://github.com/cwooz/pipeline#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "connect-flash": "^0.1.1",
