@@ -17,9 +17,9 @@ app.get('/', function(req, res) {
 });
 
 // INDEX ROUTE===============================
-// app.get("/home", function(req, res) {
-//     res.render(home"index");
-// });
+app.get('/solutions', function(req, res) {
+  res.render('solutions');
+});
 
 // // NEW ROUTE=================================
 // app.get("/home/new", function(req, res) {
