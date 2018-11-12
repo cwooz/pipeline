@@ -14,10 +14,10 @@
     <link
       type="text/css"
       rel="stylesheet"
-      href="css/materialize.min.css"
+      href="/assets/css/materialize.min.css"
       media="screen,projection"
     />
-    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="/assets/css/main.css" />
 
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,7 +26,7 @@
 
   <body>
     <!-- Header -->
-    <header class="main-header-inner">
+    <header class="main-header">
       <nav class="transparent">
         <div class="container">
           <div class="nav-wrapper">
@@ -35,9 +35,9 @@
               <i class="fa fa-bars"></i>
             </a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="solutions.html">Solutions</a></li>
-              <li><a class="active-link" href="signup.html">Sign Up</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/solutions">Portfolio</a></li>
+              <li><a class="active-link" href="/signup">Contact</a></li>
               <li>
                 <a href="#login-modal" class="btn blue modal-trigger">Login</a>
               </li>
@@ -67,16 +67,16 @@
               </li>
               <li>
                 <a href="solutions.html">
-                  <i class="fa fa-cog grey-text text-darken-4"></i> Solutions</a
+                  <i class="fa fa-cog grey-text text-darken-4"></i> Portfolio</a
                 >
               </li>
               <li>
                 <a href="signup.html">
-                  <i class="fa fa-users grey-text text-darken-4"></i> Sign Up</a
+                  <i class="fa fa-users grey-text text-darken-4"></i> Contact</a
                 >
               </li>
               <li><div class="divider"></div></li>
-              <li><a href="#" class="btn blue">Login</a></li>
+              <li><a href="#login-modal" class="btn blue">Login</a></li>
             </ul>
           </div>
         </div>
@@ -178,18 +178,14 @@
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
             <ul>
+              <li><a class="grey-text text-lighten-3" href="/">Home 1</a></li>
               <li>
-                <a class="grey-text text-lighten-3" href="index.html">Home 1</a>
-              </li>
-              <li>
-                <a class="grey-text text-lighten-3" href="solutions.html"
+                <a class="grey-text text-lighten-3" href="/solutions"
                   >Solutions</a
                 >
               </li>
               <li>
-                <a class="grey-text text-lighten-3" href="signup.html"
-                  >Signup</a
-                >
+                <a class="grey-text text-lighten-3" href="/signup">Signup</a>
               </li>
             </ul>
           </div>
@@ -235,7 +231,7 @@
       type="text/javascript"
       src="https://code.jquery.com/jquery-3.2.1.min.js"
     ></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="/assets/js/materialize.min.js"></script>
     <script>
       $(document).ready(function() {
         $('.carousel.carousel-slider').carousel({
