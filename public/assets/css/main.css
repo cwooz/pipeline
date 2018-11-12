@@ -27,6 +27,8 @@
 .margin-atb       { margin-top: auto; margin-bottom: auto; display: block; }
 .top              { margin-top: 50px; }
 .bottom           { margin-bottom: 50px; }
+.top-40            { margin-top: 40px; }
+.bottom-40         { margin-bottom: 40px; }
 .width						{ width: 100%; }
 
 .img-left      { float:left; margin:4px 10px 4px 0; }
@@ -89,26 +91,26 @@
 }
 
 .section-developers {
-  position: relative;
+  /* position: relative; */
   /* background: #1976D2; */
   background: #35d175;
   /* background: url(../img/code.jpg); */
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
   /* border-top: #333 solid 5px; */
   /* border-bottom: #333 solid 5px; */
-  min-height: 300px;
+  /* min-height: 300px; */
 }
 
 .section-podcast {
-  position: relative;
+  /* position: relative; */
   background: #1976D2;
   /* background: url(../img/circuit.jpg); */
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
   /* border-top: #333 solid 5px; */
   /* border-bottom: #333 solid 5px; */
-  min-height: 300px;
+  /* min-height: 300px; */
 }
 
 .section-podcast a {
