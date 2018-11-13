@@ -26,11 +26,11 @@ app.get('/signup', function(req, res) {
   res.render('signup');
 });
 
-//LISTEN===============================================
-// app.listen(process.env.PORT, process.env.IP, function() {
-//   console.log('SERVER HAS STARTED');
-// });
-app.listen(3001);
+// LISTEN===============================================
+app.listen(process.env.PORT, process.env.IP, function() {
+  console.log('SERVER HAS STARTED');
+});
+// app.listen(3001);
 
 // // NEW ROUTE=================================
 // app.get("/home/new", function(req, res) {
