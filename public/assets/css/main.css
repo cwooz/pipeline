@@ -160,6 +160,18 @@
   width: 100%;
 }
 
+.slider {
+  height: 400px !important;
+}
+
+nav .button-collapse { 
+  color: #039be5;
+}
+
+#sidenav-overlay {
+  display: none !important;
+}
+
 @media (max-width: 500px) {
   .section-developers,
   .section-podcast {
