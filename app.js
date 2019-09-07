@@ -1,7 +1,7 @@
 var express = require('express'),
-  app = express(),
-  bodyParser = require('body-parser'),
-  expressSanitizer = require('express-sanitizer');
+    app = express(),
+    bodyParser = require('body-parser'),
+    expressSanitizer = require('express-sanitizer');
 
 // APP CONFIG
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -30,7 +30,7 @@ app.get('/signup', function(req, res) {
 // app.listen(3001);
 const port = 3001;
 app.listen((process.env.PORT, process.env.IP || port), function() {
-  console.log(`SERVER HAS STARTED ON PORT: ${port}! 🤖👽🧙`);
+  console.log(`SERVER HAS STARTED ON PORT: ${port}! 🤖`);
 });
 
 // // NEW ROUTE=================================
