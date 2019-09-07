@@ -27,10 +27,11 @@ app.get('/signup', function(req, res) {
 });
 
 // LISTEN===============================================
-app.listen(process.env.PORT, process.env.IP, function() {
-  console.log('SERVER HAS STARTED');
-});
 // app.listen(3001);
+const port = 3001;
+app.listen((process.env.PORT, process.env.IP || port), function() {
+  console.log(`SERVER HAS STARTED ON PORT: ${port}! 🤖👽🧙`);
+});
 
 // // NEW ROUTE=================================
 // app.get("/home/new", function(req, res) {
